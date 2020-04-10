@@ -69,7 +69,7 @@ class NeuralNetwork(object):
 
         # TODO: Output layer - Replace these values with your calculations.
         final_inputs = np.dot(hidden_outputs, self.weights_hidden_to_output) # signals into final output layer
-        final_outputs = self.activation_function(final_inputs) # signals from final output layer
+        final_outputs = final_inputs # signals from final output layer
         
         return final_outputs, hidden_outputs
 
@@ -91,12 +91,12 @@ class NeuralNetwork(object):
         error = y - final_outputs # Output layer error is the difference between desired target and actual output.
         
         # TODO: Calculate the hidden layer's contribution to the error
-        hidden_error = np.dot(self.weights_hidden_to_output, error) # hidden_outputs * (1-hidden_outputs) # f'(h)
+        hidden_error = np.dot(self.weights_hidden_to_output, error) 
         
         # TODO: Backpropagated error terms - Replace these values with your calculations.
-        output_error_term = error * final_outputs * (1-final_outputs) # Check
+        output_error_term = error # * final_outputs * (1-final_outputs) # Because there's no activation function in last layer
         
-        hidden_error_term = hidden_error * hidden_outputs * (1-hidden_outputs) # np.dot(self.weights_hidden_to_output,output_error_term) * hidden_error
+        hidden_error_term = hidden_error * hidden_outputs * (1-hidden_outputs)
         
         # Weight step (input to hidden)
         delta_weights_i_h +=  hidden_error_term * X[:, None]
@@ -133,7 +133,7 @@ class NeuralNetwork(object):
         
         # TODO: Output layer - Replace these values with the appropriate calculations.
         final_inputs = np.dot(hidden_outputs, self.weights_hidden_to_output) # signals into final output layer
-        final_outputs = self.activation_function(final_inputs) # signals from final output layer 
+        final_outputs = final_inputs # signals from final output layer 
 
         return final_outputs
 
@@ -143,5 +143,5 @@ class NeuralNetwork(object):
 ##########################################################
 iterations = 500
 learning_rate = 0.01
-hidden_nodes = 2
+hidden_nodes = 20
 output_nodes = 1
