@@ -96,7 +96,7 @@ class NeuralNetwork(object):
         # TODO: Backpropagated error terms - Replace these values with your calculations.
         output_error_term = error # * final_outputs * (1-final_outputs) # Because there's no activation function in last layer
         
-        hidden_error_term = hidden_error * hidden_outputs * (1-hidden_outputs)
+        hidden_error_term = hidden_error * hidden_outputs * (1-hidden_outputs) #because activation is applied on hidden layer
         
         # Weight step (input to hidden)
         delta_weights_i_h +=  hidden_error_term * X[:, None]
