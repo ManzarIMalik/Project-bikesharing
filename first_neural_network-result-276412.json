@@ -1,70 +1,70 @@
 {
     "tests": [
         {
+            "result": ".",
             "rubric_item_id": 5574,
-            "traceback": "",
-            "result": ".",
-            "description": "The activation function is a sigmoid"
+            "description": "The activation function is a sigmoid",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 5578,
-            "traceback": "",
-            "result": ".",
-            "description": "The backpropagation implementation is correct"
+            "description": "The backpropagation implementation is correct",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 5575,
-            "traceback": "",
-            "result": ".",
-            "description": "The number of epochs is reasonable"
+            "description": "The number of epochs is reasonable",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 5572,
-            "traceback": "",
-            "result": ".",
-            "description": "The forward pass implementation is correct"
+            "description": "The forward pass implementation is correct",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 5581,
-            "traceback": "",
-            "result": ".",
-            "description": "The number of hidden nodes is reasonable"
+            "description": "The number of hidden nodes is reasonable",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 5582,
-            "traceback": "",
-            "result": ".",
-            "description": "The learning_rate is reasonable"
+            "description": "The learning_rate is reasonable",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 7964,
-            "traceback": "",
-            "result": ".",
-            "description": "The number of output nodes is correct"
+            "description": "The number of output nodes is correct",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 7965,
-            "traceback": "",
-            "result": ".",
-            "description": "Produces good results when running the network on full data"
+            "description": "Produces good results when running the network on full data",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 5573,
-            "traceback": "",
-            "result": ".",
-            "description": "The run method is correct"
+            "description": "The run method is correct",
+            "traceback": ""
         },
         {
+            "result": ".",
             "rubric_item_id": 5570,
-            "traceback": "",
-            "result": ".",
-            "description": "The weights are updated correctly on training"
+            "description": "The weights are updated correctly on training",
+            "traceback": ""
         },
         {
-            "rubric_item_id": 5580,
-            "traceback": "",
             "result": ".",
-            "description": "The update_weights implementation is correct"
+            "rubric_item_id": 5580,
+            "description": "The update_weights implementation is correct",
+            "traceback": ""
         }
     ],
     "critiques": {
