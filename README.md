@@ -47,3 +47,6 @@ output_nodes = 1
 ### Author
 
  - [Manzar Iqbal Malik](https://www.linkedin.com/in/manzarimalik)
+
+ ### License
+ - [MIT](https://github.com/ManzarIMalik/project-bikesharing/blob/master/LICENSE)
