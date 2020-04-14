@@ -42,7 +42,7 @@ output_nodes = 1
 ![Prediction graph](https://github.com/ManzarIMalik/project-bikesharing/blob/master/assets/Precdictions.png)
 
 ### Udacity Rubric Results
-![Udacity Rubric Results]([https://github.com/ManzarIMalik/project-bikesharing/blob/master/assets/UdacityRubric.png])
+![Prediction graph](https://github.com/ManzarIMalik/project-bikesharing/blob/master/assets/UdacityRubric.png)
 
 ### Author
 
