@@ -36,7 +36,7 @@ output_nodes = 1
 `Progress: 100.0% ... Training loss: 0.055 ... Validation loss: 0.139`
 
 ### Training and Validation loss
-![Training and Validation Loss]https://github.com/ManzarIMalik/deep-learning-nd/blob/master/project-bikesharing/assets/Training_Validation_loss.png)
+![Training and Validation Loss](https://github.com/ManzarIMalik/deep-learning-nd/blob/master/project-bikesharing/assets/Training_Validation_loss.png)
 
 ### Prediction Graph
 ![Prediction graph](https://github.com/ManzarIMalik/deep-learning-nd/blob/master/project-bikesharing/assets/Precdictions.png)
